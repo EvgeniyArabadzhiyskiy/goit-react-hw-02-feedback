@@ -13,3 +13,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 
 // npm i @emotion/styled @emotion/react
+// npm install --save styled-components
+// npm i styled-system styled-components

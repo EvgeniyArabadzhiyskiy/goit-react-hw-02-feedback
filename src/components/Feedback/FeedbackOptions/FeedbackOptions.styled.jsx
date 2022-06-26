@@ -12,13 +12,13 @@ export const Button = styled.button`
   color: white;
   margin-right: 12px;
   border-radius: 4px;
-  transition: background-color 300ms linear ;
-  
+  transition: background-color 300ms linear;
+
   &:last-child {
     margin-right: 0;
   }
 
-  &:hover{
+  &:hover {
     color: #121213;
     font-weight: 500;
     background-color: #5c93b3;
