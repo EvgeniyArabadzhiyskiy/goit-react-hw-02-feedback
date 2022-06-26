@@ -36,7 +36,7 @@ class Feedback extends Component {
     return (
       <FeedbackWrapper>
         <Section title="Please leave feedback" />
-        <FeedbackOptions onLeaveFeedback={this.props.onLeaveFeedback} />
+        <FeedbackOptions options={this.props.state} onLeaveFeedback={this.props.onLeaveFeedback} />
 
         <div>
           <Section title="Statistic" />
