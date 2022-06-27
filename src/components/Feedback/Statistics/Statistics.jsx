@@ -18,7 +18,7 @@ const Statistics = ({ stateEntries, totalFeedback, positiveFeedback }) => {
       <StatisticText>Total Feedbacks: {totalFeedback}</StatisticText>
 
       <StatisticText>
-        Positive Feedback: {positiveFeedback ? positiveFeedback : 0}%
+        Positive Feedback: {positiveFeedback}%
       </StatisticText>
     </StatisticContainer>
   );
