@@ -13,9 +13,7 @@ class App extends Component {
     bad: 0,
   };
 
-  onFeedbackBtnClick = feedbackText => {
-    const feedback = feedbackText;
-
+  onFeedbackBtnClick = feedback => {
     this.setState(prevState => {
       return {
         [feedback]: prevState[feedback] + 1,
