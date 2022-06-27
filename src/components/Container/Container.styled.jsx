@@ -6,4 +6,5 @@ export const GlobalContainer = styled.div`
   margin: 0 auto;
   background-color: rgb(197, 185, 185);
   border: 2px solid black;
+  text-align: center;
 `;

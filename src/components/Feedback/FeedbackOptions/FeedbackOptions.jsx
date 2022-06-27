@@ -13,8 +13,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           <Button
             key={item}
             type="button"
-            data-feedback={item}
-            onClick={onLeaveFeedback}
+            onClick={() => onLeaveFeedback(item)}
           >
             {capitalizedTag}
           </Button>
